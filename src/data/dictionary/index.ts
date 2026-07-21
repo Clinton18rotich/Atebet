@@ -17,6 +17,10 @@ import CeremonyTerms from './domains/ceremonies';
 import SpiritualTerms from './domains/spiritual';
 import NumberTerms from './domains/numbers';
 import CalendarTerms from './domains/calendar';
+import GeographyTerms from './domains/geography';
+import InsectTerms from './domains/insects';
+import MusicTerms from './domains/music';
+import AdjectiveTerms from './domains/adjectives';
 
 export interface DictionaryEntry {
   kps: string;
@@ -50,7 +54,11 @@ export const Dictionary: DictionaryDomain[] = [
   { name: 'ceremonies', entries: CeremonyTerms },
   { name: 'spiritual', entries: SpiritualTerms },
   { name: 'numbers', entries: NumberTerms },
-  { name: 'calendar', entries: [{ kps: 'months', eng: 'Months' }, ...CalendarTerms.MonthTerms, { kps: 'days', eng: 'Days' }, ...CalendarTerms.DayTerms] },
+  { name: 'calendar', entries: [...CalendarTerms.MonthTerms, ...CalendarTerms.DayTerms] },
+  { name: 'geography', entries: GeographyTerms },
+  { name: 'insects', entries: InsectTerms },
+  { name: 'music', entries: MusicTerms },
+  { name: 'adjectives', entries: AdjectiveTerms },
 ];
 
 export const getDomain = (name: string): DictionaryDomain | undefined =>

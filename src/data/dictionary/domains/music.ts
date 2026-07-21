@@ -1,0 +1,21 @@
+export const MusicTerms = [
+  { kps: 'koilonget', eng: 'band / ensemble (also: original band name)' },
+  { kps: 'ikondet', eng: 'war horn' },
+  { kps: 'kibugandet', eng: 'four-stringed instrument' },
+  { kps: 'ketuba', eng: 'eight-stringed instrument (skin sounding box)' },
+  { kps: 'nduruet', eng: 'simple flute (two finger holes)' },
+  { kps: 'tiendo', eng: 'song and dance' },
+  { kps: 'kaandaet', eng: 'initiation hymns' },
+  { kps: 'kachaat', eng: 'praise song (for lover/husband)' },
+  { kps: 'chepketilet', eng: 'initiation song (archaic)' },
+  { kps: 'kipayesit', eng: 'boys morning/evening initiation song' },
+  { kps: 'chelimen', eng: 'girls morning/evening initiation song' },
+  { kps: 'kipchamba', eng: 'Raphael Kipchamba Arap Tapotuk (Father of Kipsigis Rhumba)' },
+  { kps: 'morris arap mainek', eng: 'Morris Arap Mainek (accordion, Kapkulumben composer)' },
+  { kps: 'francis sonoiya', eng: 'Francis Sonoiya Arap Langat (lead guitarist, Koilonget)' },
+  { kps: 'wilson arap laboso', eng: 'Maruchela (first Kalenjin recording artist)' },
+  { kps: 'chebo moire', eng: 'traditional fighting song (1952 ILAM recording)' },
+  { kps: 'chemirocha', eng: 'song inspired by Jimmie Rodgers (1950 recording)' },
+  { kps: 'kapkulumben', eng: 'signature tune of Kass FM (by Morris Mainek)' },
+];
+export default MusicTerms;
