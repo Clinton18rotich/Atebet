@@ -372,14 +372,18 @@ function renderPunishment() {
 
 // ===== MUSIC TAB =====
 function renderMusic(c) {
-  c.innerHTML = `<div class="card"><div class="card-title">🎵 Chepalungu — Cradle of Kalenjin Secular Music</div></div>
-    <div class="card"><strong>Wilson Kipkirui Arap Laboso (Maruchela)</strong><br><span style="font-size:10px;color:#8B6F5E">1920– | First Kalenjin Recording Artist | Acoustic guitar, mid-1950s</span></div>
-    <div class="card"><strong>Koilonget Band (founded 1957)</strong><br><span style="font-size:10px">Kipchamba Arap Tapotuk — "Father of Kipsigis Rhumba"<br>Morris Arap Mainek — Accordion, Rhythm<br>Francis Sonoiya — Lead Guitar<br>Francis Koech (Chemirei) — Vocalist, Comedian<br>Segeri Arap Talaam — Composer</span></div>
-    <div class="card"><strong>More Artists</strong><br><span style="font-size:10px">Joel Kileges (Jamasis Band) • Pole Arap Sitonik (History Kumbuka) • Cheptorus Arap Chepkwony (Bureti Band) • Joseph Tariraat (Olala Boys, 1989) • Korgoren brothers (Olesoi Band)</span></div>
-    <div class="card"><strong>Key Recordings</strong><br><span style="font-size:10px">• 1950 — Chemirocha (Hugh Tracey, Kapkatet)<br>• 1952 — Chebo Moire: first recording (ILAM, Kapkatet)<br>• 2015 — Chemirocha recordings repatriated to community</span></div>`;
+  var songs = DATA.kipchambaDiscography || [];
+  var songHtml = '';
+  if (songs.length > 0) {
+    songHtml = '<div class="card"><div class="card-title">🎵 Kipchamba Arap Tapotuk — Complete Discography</div><p style="font-size:10px;color:#8B6F5E;margin-bottom:6px">118 songs • "Father of Kipsigis Rhumba" • Koilonget Band</p>';
+    for (var i = 0; i < songs.length; i++) {
+      var s = songs[i];
+      songHtml += '<div style="display:flex;justify-content:space-between;padding:2px 0;border-bottom:1px solid #F5F0EB;font-size:10px"><span><strong>' + s.number + '.</strong> ' + esc(s.title) + (s.featuring ? ' <span style="color:#8B6F5E">ft. ' + esc(s.featuring) + '</span>' : '') + (s.notes ? ' <span style="font-size:9px">' + esc(s.notes) + '</span>' : '') + '</span><span style="color:#8B6F5E;font-size:9px">' + (s.duration||'') + '</span></div>';
+    }
+    songHtml += '</div>';
+  }
+  c.innerHTML = '<div class="card"><div class="card-title">🎵 Chepalungu — Cradle of Kalenjin Secular Music</div></div><div class="card"><strong>Wilson Kipkirui Arap Laboso (Maruchela)</strong><br><span style="font-size:10px;color:#8B6F5E">1920– | First Kalenjin Recording Artist</span></div><div class="card"><strong>Koilonget Band (1957)</strong><br><span style="font-size:10px">Kipchamba Arap Tapotuk — "Father of Kipsigis Rhumba"<br>Morris Arap Mainek — Accordion<br>Francis Sonoiya — Lead Guitar<br>Francis Koech (Chemirei) — Vocalist</span></div>' + songHtml + '<div class="card"><strong>Key Recordings</strong><br><span style="font-size:10px">• 1950 — Chemirocha (Hugh Tracey)<br>• 1952 — Chebo Moire: first recording<br>• 2015 — Repatriation to Kapkatet</span></div>';
 }
-
-// ===== COMMUNITY TAB =====
 function renderCommunity(c) {
   c.innerHTML = `<div class="card"><div class="card-title">Self-Introduction</div><p style="font-family:monospace;background:#F5F0EB;padding:8px;border-radius:6px;font-size:12px;line-height:1.6">"Orenyun ko [Paternal Clan],<br> anue [Maternal Clan],<br> ak agan [Marital Clan]."</p><p style="color:#8B6F5E;font-size:9px;margin-top:4px;font-style:italic">Three clan identities: kisikwon, anue, komutan</p></div>
     <div class="card"><div class="card-title">Piikab Kutit</div><p style="font-size:11px"><strong>Piteet</strong> — law, custom, nature (unified)<br><strong>Atebet</strong> — behaviour from piteet<br><strong>Sogorge</strong> — unnatural, automatic consequence</p></div>

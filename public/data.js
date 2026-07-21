@@ -611,164 +611,214 @@ const DATA = {
   ],
   "ceremonies": [
     {
-      "kps": "iseetab koot",
-      "eng": "cleansing ceremony after husband death"
+      "kipsigis": "Iseetab Koot",
+      "english": "Cleansing after husband death",
+      "category": "death",
+      "description": "Purifies the house the day after a husband dies so family members can live in it again."
     },
     {
-      "kps": "kibuchege",
-      "eng": "ritual head shaving (mourning)"
+      "kipsigis": "Kibuchege",
+      "english": "Ritual head shaving",
+      "category": "death",
+      "description": "Shaving of the head following a family death, symbolizing mourning and transition."
     },
     {
-      "kps": "ngisirisyet",
-      "eng": "widow cleansing ceremony"
+      "kipsigis": "Ngisirisyet",
+      "english": "Widow cleansing ceremony",
+      "category": "death",
+      "description": "Removal of certain items from the widow and household as part of mourning and cleansing."
     },
     {
-      "kps": "kiil karik",
-      "eng": "cleansing weapons of deceased"
+      "kipsigis": "Kiil Karik",
+      "english": "Cleansing weapons of deceased",
+      "category": "death",
+      "description": "Purification of weapons belonging to a deceased man."
     },
     {
-      "kps": "kepeel lol",
-      "eng": "traditional divorce ceremony"
+      "kipsigis": "Kepeel Lol / Kil Kwondo",
+      "english": "Traditional divorce ceremony",
+      "category": "marriage",
+      "description": "Formally dissolves a marriage. Both parties use child names and anoint each other with butter."
     },
     {
-      "kps": "iseetab murenik",
-      "eng": "warrior blessing before battle"
+      "kipsigis": "Chuteetab Njor",
+      "english": "Suitor visit to in-laws",
+      "category": "marriage",
+      "description": "Ceremonial visit by suitor to future in-laws. Permitted to enter the eastern half of the house."
     },
     {
-      "kps": "iringotit",
-      "eng": "compensation to victim family (murder)"
+      "kipsigis": "Eitaap Muget",
+      "english": "Bride home ceremony / Elder elevation",
+      "category": "marriage",
+      "description": "Ceremony at bride-to-be home during marriage rites. Also used to elevate respected elderly men to sainthood status."
     },
     {
-      "kps": "chepngabait",
-      "eng": "payment animal for initiation care"
+      "kipsigis": "Ewor Ga",
+      "english": "Wedding ceremonial rite",
+      "category": "marriage",
+      "description": "Rite associated with weddings and marriage celebrations."
     },
     {
-      "kps": "chuteetab njor",
-      "eng": "suitor ceremonial visit to in-laws"
+      "kipsigis": "Katunisyetab Tororyet",
+      "english": "Long-married couple honor",
+      "category": "marriage",
+      "description": "Ceremony honoring a couple married many years. Reaffirms marriage and family values."
     },
     {
-      "kps": "eitaap muget",
-      "eng": "bride home ceremony / elder elevation"
+      "kipsigis": "Keturum Sondet",
+      "english": "Reconciliation ceremony",
+      "category": "marriage",
+      "description": "Husband formally receives back an adulterous wife."
     },
     {
-      "kps": "ewor ga",
-      "eng": "wedding ceremonial rite"
+      "kipsigis": "Suetab Tuga",
+      "english": "Bridewealth livestock inspection",
+      "category": "marriage",
+      "description": "Bride family inspects livestock intended for bridewealth (dowry)."
     },
     {
-      "kps": "kambaget",
-      "eng": "mock battle rehearsal before raid"
+      "kipsigis": "Chepkururge",
+      "english": "Gift to married daughters",
+      "category": "marriage",
+      "description": "Gift presented to married daughters by brothers after death of both parents. Protection since sons inherit most family property."
     },
     {
-      "kps": "injogeet",
-      "eng": "communal justice punishment"
+      "kipsigis": "Rate",
+      "english": "The Tying (marriage ceremony)",
+      "category": "marriage",
+      "description": "The binding marriage ceremony. Couple wrists bound with seguitet grass under an arch of beer tubes."
     },
     {
-      "kps": "iseetab tuga",
-      "eng": "livestock protection ceremony"
+      "kipsigis": "Chepngabait",
+      "english": "Payment for initiation care",
+      "category": "initiation",
+      "description": "Animal given as token payment to those who cared for and fed a child during initiation."
     },
     {
-      "kps": "kaanyinyet",
-      "eng": "lightning strike cleansing"
+      "kipsigis": "Kareetoetab Lagok",
+      "english": "Initiation purification",
+      "category": "initiation",
+      "description": "Purification ceremony in the initiation series. Observed by certain clans."
     },
     {
-      "kps": "kareetoetab lagok",
-      "eng": "initiation purification (certain clans)"
+      "kipsigis": "Kayaet",
+      "english": "River washing ceremony",
+      "category": "initiation",
+      "description": "Ritual washing of initiates at a river. Full immersion. Symbolizes purification and abandonment of past impurities."
     },
     {
-      "kps": "katumetab lakwet",
-      "eng": "ceremony for frequently ill child"
+      "kipsigis": "Kayaetab Tarusyek",
+      "english": "Seclusion instruction",
+      "category": "initiation",
+      "description": "Instructional and cleansing ceremony during initiates period of seclusion. Often performed at a river."
     },
     {
-      "kps": "katunisyetab tororyet",
-      "eng": "long-married couple honor"
+      "kipsigis": "Kailet",
+      "english": "Anointing at emergence",
+      "category": "initiation",
+      "description": "Anointing ceremony conducted as initiates emerge from the initiation camp."
     },
     {
-      "kps": "kayaet",
-      "eng": "river washing ceremony (initiation)"
+      "kipsigis": "Keetyenji",
+      "english": "Tutorial ceremony",
+      "category": "initiation",
+      "description": "Tutorial for initiates held approximately one month after Labetab Eun."
     },
     {
-      "kps": "kailet",
-      "eng": "anointing ceremony (emerging from initiation)"
+      "kipsigis": "Yatetab Oret",
+      "english": "Opening of the Way",
+      "category": "initiation",
+      "description": "Final initiation rite. Anointing the forehead with fat and washing feet with sacred solution. The passage through the archway into adulthood."
     },
     {
-      "kps": "keturum sondet",
-      "eng": "reconciliation (adulterous wife)"
+      "kipsigis": "Iseetab Murenik",
+      "english": "Warrior blessing",
+      "category": "warfare",
+      "description": "Special blessing ceremony for warriors before departing for planned battle."
     },
     {
-      "kps": "keetyenji",
-      "eng": "tutorial ceremony (one month after initiation)"
+      "kipsigis": "Kambaget",
+      "english": "Mock battle rehearsal",
+      "category": "warfare",
+      "description": "Mock battle conducted before an actual raid or military expedition."
     },
     {
-      "kps": "keewiren sogot",
-      "eng": "symbolic condemnation (leaf throwing)"
+      "kipsigis": "Iringotit",
+      "english": "Murder compensation",
+      "category": "justice",
+      "description": "Compensation presented by murderer to victim family as gesture of remorse before full compensation."
     },
     {
-      "kps": "kuletab muget",
-      "eng": "men-only celebratory ceremony"
+      "kipsigis": "Injogeet",
+      "english": "Communal justice",
+      "category": "justice",
+      "description": "Form of communal justice where a crowd carries out punishment of a serious offender."
     },
     {
-      "kps": "suetab tuga",
-      "eng": "bridewealth livestock inspection"
+      "kipsigis": "Keewiren Sogot",
+      "english": "Symbolic condemnation",
+      "category": "justice",
+      "description": "Family members throw a leaf or twig at offender, declaring others may punish without retaliation."
     },
     {
-      "kps": "tisetet emet",
-      "eng": "land cleansing (poor harvest)"
+      "kipsigis": "Iseetab Tuga",
+      "english": "Livestock protection",
+      "category": "protection",
+      "description": "Sprinkling of cattle, sheep, and goats to protect from diseases such as anthrax and rinderpest."
     },
     {
-      "kps": "kole",
-      "eng": "personal purification ceremony"
+      "kipsigis": "Kaanyinyet Yon Kabaris Ilet",
+      "english": "Lightning cleansing",
+      "category": "protection",
+      "description": "Cleansing and protection for people, livestock, homes, or property struck by lightning."
     },
     {
-      "kps": "tyegetab segut",
-      "eng": "treading on grass (first child)"
+      "kipsigis": "Katumetab Lakwet",
+      "english": "Ceremony for sick child",
+      "category": "protection",
+      "description": "Ceremony for a child who frequently suffered illness or was accident-prone."
     },
     {
-      "kps": "chepkururge",
-      "eng": "gift to married daughters (parents death)"
+      "kipsigis": "Tisetet Emet",
+      "english": "Land cleansing",
+      "category": "protection",
+      "description": "Land-cleansing ceremony after a poor millet harvest."
     },
     {
-      "kps": "yatetab oret",
-      "eng": "Opening of the Way (final initiation rite)"
+      "kipsigis": "Kole / Kayanyinyet",
+      "english": "Personal purification",
+      "category": "protection",
+      "description": "Cleansing ceremony to purify an individual from past wrongdoings and restore social harmony."
     },
     {
-      "kps": "tumdo",
-      "eng": "initiation (ceremony and process)"
+      "kipsigis": "Kuletab Eitab Muget",
+      "english": "Sainthood elevation",
+      "category": "celebration",
+      "description": "Sacrifice of sheep or goat honoring a highly respected community member. Marks elevation to saintly status."
     },
     {
-      "kps": "kapkorosit",
-      "eng": "annual public worship festival"
+      "kipsigis": "Kuletab Muget",
+      "english": "Men celebration",
+      "category": "celebration",
+      "description": "Celebratory ceremony attended exclusively by men."
     },
     {
-      "kps": "rotet",
-      "eng": "ceremony for warlike blessings"
+      "kipsigis": "Tyegetab Segut",
+      "english": "Treading on grass",
+      "category": "celebration",
+      "description": "Ceremony after birth of first child. The \"treading on grass\" ritual."
     },
     {
-      "kps": "saget ap eito",
-      "eng": "cutting the age set ceremony"
+      "kipsigis": "Ngorayikap Kotuswa",
+      "english": "Garment of the mouths",
+      "category": "birth",
+      "description": "Pregnancy ceremony. Goat sacrificed at 4th and 8th months. The skin garment worn until confinement."
     },
     {
-      "kps": "kaburburet",
-      "eng": "ceremony for Tegerisiek"
-    },
-    {
-      "kps": "koretotap lakwet",
-      "eng": "cowrie shell childhood ceremony"
-    },
-    {
-      "kps": "lotetap kelek",
-      "eng": "front tooth extraction ceremony"
-    },
-    {
-      "kps": "rutet itik",
-      "eng": "ear piercing ceremony"
-    },
-    {
-      "kps": "katumetap lakwet",
-      "eng": "causing to bear ceremony"
-    },
-    {
-      "kps": "kalagetap ngoriet",
-      "eng": "wearing of the garment ceremony"
+      "kipsigis": "Tumdo",
+      "english": "Initiation (ceremony and process)",
+      "category": "initiation",
+      "description": "The great initiation ceremony including circumcision. Rebirth into adulthood. Children become Kipsigis."
     }
   ],
   "colors": [
@@ -3134,19 +3184,1054 @@ const DATA = {
   },
   "proverbs": [
     {
-      "kps": "Mokeyume sondii, c moen ketil",
-      "eng": "One does not shelter under a leafy canopy and then when it stops raining cut it down",
-      "meaning": "On gratitude"
+      "kipsigis": "Mokeyume sondii, c moen ketil",
+      "english": "One does not shelter under a leafy canopy and then when it stops raining cut it down",
+      "meaning": "On gratitude — do not forget those who helped you in times of trouble",
+      "theme": "gratitude"
     },
     {
-      "kps": "Mokeloot ndara",
-      "eng": "One does not award to the if-one-had",
-      "meaning": "On useless regret"
+      "kipsigis": "Mokeloot ndara",
+      "english": "One does not award to the if-one-had",
+      "meaning": "On useless regret — do not dwell on what might have been",
+      "theme": "regret"
     },
     {
-      "kps": "Sisinge sikwasta nerekek",
-      "eng": "Be silent until your anger has abated",
-      "meaning": "On controlling anger"
+      "kipsigis": "Sisinge sikwasta nerekek",
+      "english": "Be silent until your anger has abated",
+      "meaning": "On controlling anger — do not speak or act in the heat of emotion",
+      "theme": "anger"
+    },
+    {
+      "kipsigis": "Mokechot toogap pik",
+      "english": "One does not steal cattle from people (Kipsigis)",
+      "meaning": "On honesty within the tribe — theft from fellow Kipsigis is unnatural",
+      "theme": "character"
+    },
+    {
+      "kipsigis": "Kebaru toogap punik",
+      "english": "One raids cattle from enemies",
+      "meaning": "On legitimate warfare — taking from enemies is not theft but rightful action",
+      "theme": "character"
+    },
+    {
+      "kipsigis": "Yon rorye chito ko tagu kelek chepo kipkelmet",
+      "english": "When a person laughs, the premolars and molars show",
+      "meaning": "On laughter — true emotion reveals itself in the body",
+      "theme": "wisdom"
+    },
+    {
+      "kipsigis": "Yon nyime chito ko tagu kelek che po taa",
+      "english": "When a person is smiling, the front teeth are visible",
+      "meaning": "On smiling — restraint and control show only what is intended",
+      "theme": "wisdom"
+    },
+    {
+      "kipsigis": "Makiabae tany ne tupcher",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Maichibe chi popaan nebo chi",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Kibendi mutyo machei kel.",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Makiamen ki lupchan chebo kenera",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Kiame met bo talamwa kegonyen tagatetab eii",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Ing'ete kimereng' mindo",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Wekse urwon bo keet",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Tyeche chatit ele katyech kusto",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Mogombe euu chepyoso",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Magichorchin ng'elyep koroti",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Inomdo kipkosiet keet mondoiywo",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Maburyoonu munyas cheragan",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Kergee kipset ak kiptep",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Kiteechin mogonchoi ngandan magose",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    },
+    {
+      "kipsigis": "Makisosunen karna ma",
+      "english": "",
+      "meaning": "Translation pending",
+      "theme": "unknown"
+    }
+  ],
+  "clanDetails": [
+    {
+      "name": "Kap kerichek",
+      "totem": "Medicines",
+      "totemKipsigis": "Kerichek",
+      "notes": "\"People of the medicines\" — possibly associated with healing knowledge"
+    },
+    {
+      "name": "Kap kolwolek",
+      "notes": "Mentioned in self-introduction examples"
+    },
+    {
+      "name": "Kap sengerek",
+      "notes": "Mentioned in marriage clan examples"
+    },
+    {
+      "name": "Kap mochaek",
+      "notes": "Mentioned as maternal clan in self-introduction"
+    },
+    {
+      "name": "Kap parangwek",
+      "totem": "Elephant",
+      "totemKipsigis": "Peliot",
+      "notes": "The Elephant Clan. Sons praised as Porogeek. Clan of Joseph Arap Tariraat."
+    },
+    {
+      "name": "Kap soenik",
+      "totem": "Buffalo",
+      "totemKipsigis": "Soet",
+      "notes": "Kapsamaek clan of Joel Kileges."
+    },
+    {
+      "name": "Kipsamaek",
+      "totem": "Lion",
+      "region": "Saoset, Bomet East",
+      "notes": "Clan of Joel Kileges."
+    },
+    {
+      "name": "Kapsoenik",
+      "notes": "Clan of Kipchamba Arap Tapotuk and Pole Arap Sitonik."
+    },
+    {
+      "name": "Motoborik",
+      "notes": "Clan of Francis Sonoiya Arap Langat."
+    },
+    {
+      "name": "Kapkenyogorek",
+      "notes": "Clan of Segeri Arap Talaam."
+    },
+    {
+      "name": "Kiplegenek",
+      "notes": "Clan of Cheptorus Arap Chepkwony."
+    },
+    {
+      "name": "Kibaek",
+      "totemKipsigis": "Tegeldo",
+      "notes": "Clan of Wilson Arap Laboso (Maruchela)."
+    },
+    {
+      "name": "Kipomuek",
+      "notes": "Clan of Maruchela mother family (Joel Kimeto family)."
+    },
+    {
+      "name": "Kipcheromeek",
+      "notes": "Believed to have Oromo origins from present-day Eritrea. \"Kip-chi-bo-Oromo\" = \"People of Oromo\"."
+    },
+    {
+      "name": "Kapsigilaek",
+      "notes": "Mentioned in clan documentation."
+    },
+    {
+      "name": "Boek"
+    },
+    {
+      "name": "Paguserek"
+    },
+    {
+      "name": "Poswetek"
+    },
+    {
+      "name": "Kap parsumek"
+    },
+    {
+      "name": "Kap pargesaek"
+    },
+    {
+      "name": "Kap echerek"
+    },
+    {
+      "name": "Kap chemogondek"
+    },
+    {
+      "name": "Kap chepororek"
+    },
+    {
+      "name": "Kap chepalungu"
+    },
+    {
+      "name": "Kap cheptalamek"
+    },
+    {
+      "name": "Kap chemisek"
+    },
+    {
+      "name": "Kap chepures"
+    },
+    {
+      "name": "Kap chepumbwek"
+    },
+    {
+      "name": "Kap cheroigek"
+    },
+    {
+      "name": "Kap cheurek"
+    },
+    {
+      "name": "Kap iyorya"
+    },
+    {
+      "name": "Kap kechwoek"
+    },
+    {
+      "name": "Kap kelega"
+    },
+    {
+      "name": "Kap kenyogorek"
+    },
+    {
+      "name": "Kap kesogek"
+    },
+    {
+      "name": "Kap kesundek"
+    },
+    {
+      "name": "Kap moek"
+    },
+    {
+      "name": "Kap mogorek"
+    },
+    {
+      "name": "Kap mago"
+    },
+    {
+      "name": "Kap komosik"
+    },
+    {
+      "name": "Kap kugoek"
+    },
+    {
+      "name": "Kap lachan"
+    },
+    {
+      "name": "Kap mochilek"
+    },
+    {
+      "name": "Kap kaon"
+    },
+    {
+      "name": "Kap kichwenek"
+    },
+    {
+      "name": "Kap mong'esoi"
+    },
+    {
+      "name": "Kap masoswoek"
+    },
+    {
+      "name": "Kap mwererek"
+    },
+    {
+      "name": "Kap segit"
+    },
+    {
+      "name": "Kap saosan"
+    },
+    {
+      "name": "Kapchamagondek",
+      "totem": "Crested Crane",
+      "totemKipsigis": "Konganyot",
+      "chantName": "Kabarut",
+      "notes": "Clan chant: \"A po kobar tit...\" — crane crest similar to slit cattle ears."
+    },
+    {
+      "name": "Kapsutayek",
+      "totem": "Crested Crane",
+      "totemKipsigis": "Konganyot",
+      "chantName": "Kabarut"
+    },
+    {
+      "name": "Kabarangwek",
+      "totem": "Elephant",
+      "totemKipsigis": "Peliot",
+      "chantName": "Ongen/Kapongen",
+      "notes": "Clan chant: \"Kipo kapongen...\" — water scooped from elephant footprints."
+    },
+    {
+      "name": "Kapkitolil",
+      "totem": "Elephant",
+      "totemKipsigis": "Peliot"
+    },
+    {
+      "name": "Kapkoytim",
+      "totem": "Elephant",
+      "totemKipsigis": "Peliot"
+    },
+    {
+      "name": "Kapasiso",
+      "notes": "Clan that amalgamated with the Nata to form the Sotik section."
+    }
+  ],
+  "praiseNames": [
+    {
+      "prefix": "Tap-",
+      "meaning": "Female honorific (agentive \"she who\")",
+      "count": 14
+    },
+    {
+      "prefix": "Chep-",
+      "meaning": "Female prefix (also used in birth names)",
+      "count": 3
+    },
+    {
+      "prefix": "Che-",
+      "meaning": "Shortened female prefix",
+      "count": 2
+    },
+    {
+      "prefix": "Tab-",
+      "meaning": "Variant of Tap-",
+      "count": 1
+    }
+  ],
+  "sacredGeography": [
+    {
+      "stop": "Misiri",
+      "english": "Egypt",
+      "notes": "Ancestral origin"
+    },
+    {
+      "stop": "Burgei",
+      "english": "Southern Sudan",
+      "notes": "Migration stop"
+    },
+    {
+      "stop": "Too",
+      "english": "To (Ancestral Homeland)",
+      "notes": "North of present Tugen and Keyo, near Lake Baringo"
+    },
+    {
+      "stop": "Koi Tui",
+      "english": "Northern Uganda?",
+      "notes": "Migration stop"
+    },
+    {
+      "stop": "Mt. Kony",
+      "english": "Mount Elgon",
+      "notes": "Migration stop"
+    },
+    {
+      "stop": "Lake Camos",
+      "english": "Lake Baringo?",
+      "notes": "Migration stop"
+    },
+    {
+      "stop": "Kilombe",
+      "english": "Kipsigis-Nandi Separation Point",
+      "notes": "Where the two peoples divided"
+    },
+    {
+      "stop": "Tulwab Kipsigis",
+      "english": "Mount Blackett",
+      "notes": "Entry to present homeland, c. 1650"
+    }
+  ],
+  "musicians": [
+    {
+      "name": "Chandarana Records",
+      "location": "Kericho",
+      "era": "Pioneer"
+    },
+    {
+      "name": "A.I. Records Kenya Limited",
+      "location": "",
+      "era": "1970s"
+    },
+    {
+      "name": "Ramojei Photography Studio",
+      "location": "Kericho Town",
+      "era": "Pioneer"
+    },
+    {
+      "name": "Kipsuter Sounds",
+      "location": "",
+      "era": "Growth",
+      "notes": "Run by Joseph Rono and Mwalimu Anthony Koech"
+    },
+    {
+      "name": "ILAM",
+      "location": "",
+      "era": "Archive",
+      "notes": "Preserved earliest recordings"
+    }
+  ],
+  "kipchambaDiscography": [
+    {
+      "number": 1,
+      "title": "Matinye Aliot Chepkam",
+      "duration": "04:52"
+    },
+    {
+      "number": 2,
+      "title": "Kiloit",
+      "duration": "04:50"
+    },
+    {
+      "number": 3,
+      "title": "Igilge Chitugul",
+      "duration": "03:20"
+    },
+    {
+      "number": 4,
+      "title": "Vernonika",
+      "duration": "04:53",
+      "notes": "✝"
+    },
+    {
+      "number": 5,
+      "title": "Korgob Mondoi",
+      "duration": "04:49"
+    },
+    {
+      "number": 6,
+      "title": "Maktyoen Lakwet Chorwa",
+      "duration": "04:57",
+      "notes": "✝"
+    },
+    {
+      "number": 7,
+      "title": "Kimiet ab Bandiat",
+      "duration": "04:48",
+      "notes": "✝"
+    },
+    {
+      "number": 8,
+      "title": "Chemunada",
+      "featuring": "Chemirei",
+      "duration": "04:54"
+    },
+    {
+      "number": 9,
+      "title": "Sugarik",
+      "featuring": "Chemirei",
+      "duration": "04:56"
+    },
+    {
+      "number": 10,
+      "title": "Chamtos Lagok",
+      "featuring": "Chemirei",
+      "duration": "03:29"
+    },
+    {
+      "number": 11,
+      "title": "Milika",
+      "featuring": "Chemirei",
+      "duration": "05:43"
+    },
+    {
+      "number": 12,
+      "title": "Chepwenga",
+      "featuring": "Chemirei",
+      "duration": "06:11"
+    },
+    {
+      "number": 13,
+      "title": "Saa Nane Saan",
+      "duration": "06:06"
+    },
+    {
+      "number": 14,
+      "title": "Best of Kipchamba Arap Tapotuk (Compilation)",
+      "duration": "46:46"
+    },
+    {
+      "number": 15,
+      "title": "Poru Chitugul Nenyin",
+      "duration": "04:46"
+    },
+    {
+      "number": 16,
+      "title": "Korik ab Mut",
+      "duration": "05:21"
+    },
+    {
+      "number": 17,
+      "title": "Yosindo, vs. Minginotet",
+      "duration": "02:51"
+    },
+    {
+      "number": 18,
+      "title": "Ytamain",
+      "duration": "04:49"
+    },
+    {
+      "number": 19,
+      "title": "Yechin Maywek, Moet",
+      "duration": "03:09"
+    },
+    {
+      "number": 20,
+      "title": "Ya, Mumian",
+      "featuring": "Chemirei",
+      "duration": "06:46"
+    },
+    {
+      "number": 21,
+      "title": "Ya, Konyontet",
+      "duration": "04:44"
+    },
+    {
+      "number": 22,
+      "title": "Wuite Chemlel",
+      "duration": "04:54"
+    },
+    {
+      "number": 23,
+      "title": "Warembeek",
+      "duration": "04:38"
+    },
+    {
+      "number": 24,
+      "title": "Wani Wani Tonto",
+      "duration": "04:42"
+    },
+    {
+      "number": 25,
+      "title": "Uwotet",
+      "duration": "04:50"
+    },
+    {
+      "number": 26,
+      "title": "Ukwimi",
+      "duration": "05:34"
+    },
+    {
+      "number": 27,
+      "title": "Tapkurgor",
+      "duration": "04:31"
+    },
+    {
+      "number": 28,
+      "title": "Taitolilit",
+      "featuring": "Chemirei",
+      "duration": "05:14"
+    },
+    {
+      "number": 29,
+      "title": "Taburu",
+      "duration": "04:47"
+    },
+    {
+      "number": 30,
+      "title": "Sugutek ak Munyek",
+      "duration": "03:04"
+    },
+    {
+      "number": 31,
+      "title": "Sugulilt ab Muswoknotet Nepo",
+      "duration": "04:47"
+    },
+    {
+      "number": 32,
+      "title": "Soweyek",
+      "featuring": "Morris",
+      "duration": "04:14"
+    },
+    {
+      "number": 33,
+      "title": "Solomon Mangri",
+      "duration": "04:48"
+    },
+    {
+      "number": 34,
+      "title": "Sokobi Maliat",
+      "duration": "04:49"
+    },
+    {
+      "number": 35,
+      "title": "Sofia",
+      "duration": "04:27"
+    },
+    {
+      "number": 36,
+      "title": "Sobet ab Town",
+      "duration": "04:50"
+    },
+    {
+      "number": 37,
+      "title": "Sisil",
+      "duration": "05:15"
+    },
+    {
+      "number": 38,
+      "title": "Sindenuyuy",
+      "featuring": "Chemirei",
+      "duration": "03:33"
+    },
+    {
+      "number": 39,
+      "title": "Sina, Sina .Kimulot",
+      "duration": "02:44"
+    },
+    {
+      "number": 40,
+      "title": "Lelwot",
+      "duration": "04:57"
+    },
+    {
+      "number": 41,
+      "title": "Lelekonchik",
+      "featuring": "Chemirei",
+      "duration": "04:54"
+    },
+    {
+      "number": 42,
+      "title": "Legesset",
+      "duration": "02:52"
+    },
+    {
+      "number": 43,
+      "title": "Lagok ab Borop",
+      "duration": "04:57"
+    },
+    {
+      "number": 44,
+      "title": "Kyalack Kinuet ak Suit",
+      "featuring": "Segeri",
+      "duration": "03:05"
+    },
+    {
+      "number": 45,
+      "title": "Kwontyk",
+      "duration": "02:56"
+    },
+    {
+      "number": 46,
+      "title": "Kwena",
+      "duration": "04:53"
+    },
+    {
+      "number": 47,
+      "title": "Kwasa, Kwasa",
+      "duration": "04:57"
+    },
+    {
+      "number": 48,
+      "title": "Kwaburen Kibarga",
+      "duration": "04:49"
+    },
+    {
+      "number": 49,
+      "title": "Kutwet",
+      "duration": "04:46"
+    },
+    {
+      "number": 50,
+      "title": "Kuompisk",
+      "duration": "03:12"
+    },
+    {
+      "number": 51,
+      "title": "Kowo ak Mshanara",
+      "duration": "06:38"
+    },
+    {
+      "number": 52,
+      "title": "Mang Alin Rihoda",
+      "duration": "05:47"
+    },
+    {
+      "number": 53,
+      "title": "Mama Momi",
+      "featuring": "Chemirei",
+      "duration": "03:09"
+    },
+    {
+      "number": 54,
+      "title": "Makken ak Makichai",
+      "duration": "04:29"
+    },
+    {
+      "number": 55,
+      "title": "Makigen ak Making ak",
+      "duration": "04:17"
+    },
+    {
+      "number": 56,
+      "title": "Makiboi en Tinet",
+      "duration": "03:54"
+    },
+    {
+      "number": 57,
+      "title": "Maina ak Chumo",
+      "duration": "05:27"
+    },
+    {
+      "number": 58,
+      "title": "Magitube Kit ak",
+      "duration": "05:46"
+    },
+    {
+      "number": 59,
+      "title": "Magiret",
+      "duration": "04:56"
+    },
+    {
+      "number": 60,
+      "title": "Macheikei",
+      "duration": "04:24"
+    },
+    {
+      "number": 61,
+      "title": "Maasai Twist",
+      "duration": "03:59"
+    },
+    {
+      "number": 62,
+      "title": "Luisyo en Nyere",
+      "duration": "05:05"
+    },
+    {
+      "number": 63,
+      "title": "Luget ab Mogori Part 2",
+      "duration": "02:57"
+    },
+    {
+      "number": 64,
+      "title": "Luget ab Mogori Part 1",
+      "duration": "04:55"
+    },
+    {
+      "number": 65,
+      "title": "Sangit ak Chesireret",
+      "duration": "04:55"
+    },
+    {
+      "number": 66,
+      "title": "Sang Nyua",
+      "featuring": "Chemirei",
+      "duration": "04:41"
+    },
+    {
+      "number": 67,
+      "title": "Salanik",
+      "duration": "05:12"
+    },
+    {
+      "number": 68,
+      "title": "Rosina",
+      "duration": "02:52"
+    },
+    {
+      "number": 69,
+      "title": "Rosalina",
+      "duration": "03:25"
+    },
+    {
+      "number": 70,
+      "title": "Ropta .61",
+      "duration": "03:25"
+    },
+    {
+      "number": 71,
+      "title": "Riip Sibondongang",
+      "duration": "03:05"
+    },
+    {
+      "number": 72,
+      "title": "Riip Saisiek",
+      "featuring": "Chemirei",
+      "duration": "05:46"
+    },
+    {
+      "number": 73,
+      "title": "Ribege Lutiya",
+      "duration": "05:11"
+    },
+    {
+      "number": 74,
+      "title": "Rael Chepbon",
+      "duration": "03:00"
+    },
+    {
+      "number": 75,
+      "title": "Paulina",
+      "duration": "02:51"
+    },
+    {
+      "number": 76,
+      "title": "Pathapatha Dip",
+      "duration": "03:30"
+    },
+    {
+      "number": 77,
+      "title": "Ossmeasen Logok",
+      "duration": "03:37"
+    },
+    {
+      "number": 78,
+      "title": "Osan Paget",
+      "duration": "03:08"
+    },
+    {
+      "number": 79,
+      "title": "Orereni Chepkorut",
+      "duration": "05:47"
+    },
+    {
+      "number": 80,
+      "title": "Ongilong Unkee",
+      "duration": "05:23"
+    },
+    {
+      "number": 81,
+      "title": "Onyinyi Maweek Limuru",
+      "duration": "03:20"
+    },
+    {
+      "number": 82,
+      "title": "Ongibwat .Tyenkyo",
+      "duration": "04:55"
+    },
+    {
+      "number": 83,
+      "title": "Ongeten Sol",
+      "duration": "03:19"
+    },
+    {
+      "number": 84,
+      "title": "Ongeruten Koyme",
+      "duration": "03:00"
+    },
+    {
+      "number": 85,
+      "title": "Ongerorisen .Rh.",
+      "duration": "03:00"
+    },
+    {
+      "number": 86,
+      "title": "Ongerip Ketiktuk Chebo Kipcha",
+      "duration": "06:37"
+    },
+    {
+      "number": 87,
+      "title": "Ongetemet .Kanyiriret",
+      "featuring": "Segeri",
+      "duration": "03:12"
+    },
+    {
+      "number": 88,
+      "title": "Omin Maweek",
+      "duration": "04:48"
+    },
+    {
+      "number": 89,
+      "title": "Olengurwo .Ko Kipalma",
+      "duration": "05:22"
+    },
+    {
+      "number": 90,
+      "title": "Ogkuile Kipankin .Orip Maimbo",
+      "duration": "03:04"
+    },
+    {
+      "number": 91,
+      "title": "Ogas .Ngalakab",
+      "duration": "05:14"
+    },
+    {
+      "number": 92,
+      "title": "Obwat Kololiet",
+      "duration": "02:26"
+    },
+    {
+      "number": 93,
+      "title": "Obot Jeni",
+      "featuring": "Chemirei",
+      "duration": "05:14"
+    },
+    {
+      "number": 94,
+      "title": "Obot Chemsichki",
+      "duration": "03:03"
+    },
+    {
+      "number": 95,
+      "title": "Obot Chemetet",
+      "duration": "02:58"
+    },
+    {
+      "number": 96,
+      "title": "Obot Mini",
+      "duration": "05:27"
+    },
+    {
+      "number": 97,
+      "title": "Mzee Moi",
+      "duration": "04:08"
+    },
+    {
+      "number": 98,
+      "title": "Muren",
+      "duration": "05:09"
+    },
+    {
+      "number": 99,
+      "title": "Muperek",
+      "duration": "03:00"
+    },
+    {
+      "number": 100,
+      "title": "Munonji",
+      "duration": "05:18"
+    },
+    {
+      "number": 101,
+      "title": "Moitor",
+      "featuring": "Chemirei",
+      "duration": "05:18"
+    },
+    {
+      "number": 102,
+      "title": "Moirureren Tyenik",
+      "duration": "03:11"
+    },
+    {
+      "number": 103,
+      "title": "Motilutu",
+      "duration": "03:02"
+    },
+    {
+      "number": 104,
+      "title": "Motienyujy",
+      "duration": "03:29"
+    },
+    {
+      "number": 105,
+      "title": "Mirimuo",
+      "duration": "03:02"
+    },
+    {
+      "number": 106,
+      "title": "Moli Kercho Kurowi",
+      "duration": "05:05"
+    },
+    {
+      "number": 107,
+      "title": "Mokirwogunen Go Muren",
+      "duration": "06:57"
+    },
+    {
+      "number": 108,
+      "title": "Mionget .ab Noah",
+      "duration": "02:39"
+    },
+    {
+      "number": 109,
+      "title": "Miogeen",
+      "featuring": "Chemirei",
+      "duration": "03:07"
+    },
+    {
+      "number": 110,
+      "title": "Mike Boit",
+      "duration": "04:48"
+    },
+    {
+      "number": 111,
+      "title": "Mi Sobet Barak",
+      "duration": "03:02"
+    },
+    {
+      "number": 112,
+      "title": "Merengut",
+      "duration": "09:45",
+      "notes": "Longest track"
+    },
+    {
+      "number": 113,
+      "title": "Meris Segirut",
+      "duration": "04:34"
+    },
+    {
+      "number": 114,
+      "title": "Menegepereton",
+      "featuring": "Sonyoa",
+      "duration": "03:05"
+    },
+    {
+      "number": 115,
+      "title": "Meigui Kenderwa",
+      "duration": "04:53"
+    },
+    {
+      "number": 116,
+      "title": "Meigul Amai",
+      "duration": "02:44"
+    },
+    {
+      "number": 117,
+      "title": "Mautiennek",
+      "duration": "04:56"
+    },
+    {
+      "number": 118,
+      "title": "Mau Narok 1995 - Chorwenyun",
+      "notes": "Duration not recorded"
     }
   ],
   "clans": [
