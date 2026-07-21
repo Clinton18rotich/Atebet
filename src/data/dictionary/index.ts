@@ -1,10 +1,3 @@
-/**
- * Atebet Master Dictionary
- * 
- * Complete Kipsigis Language & Culture Archive
- * All entries from the 38-chapter reference work
- */
-
 import BodyParts from './domains/body';
 import PainExpressions from './domains/pain';
 import FamilyTerms from './domains/family';
@@ -18,12 +11,19 @@ import PlantTerms from './domains/plants';
 import WeatherTerms from './domains/weather';
 import ColorTerms from './domains/colors';
 import VerbTerms from './domains/verbs';
+import GreetingTerms from './domains/greetings';
+import IllnessTerms from './domains/illness';
+import CeremonyTerms from './domains/ceremonies';
+import SpiritualTerms from './domains/spiritual';
+import NumberTerms from './domains/numbers';
+import CalendarTerms from './domains/calendar';
 
 export interface DictionaryEntry {
   kps: string;
   eng: string;
   pl?: string;
   lit?: string;
+  res?: string;
 }
 
 export interface DictionaryDomain {
@@ -45,6 +45,12 @@ export const Dictionary: DictionaryDomain[] = [
   { name: 'weather', entries: WeatherTerms },
   { name: 'colors', entries: ColorTerms },
   { name: 'verbs', entries: VerbTerms },
+  { name: 'greetings', entries: GreetingTerms },
+  { name: 'illness', entries: IllnessTerms },
+  { name: 'ceremonies', entries: CeremonyTerms },
+  { name: 'spiritual', entries: SpiritualTerms },
+  { name: 'numbers', entries: NumberTerms },
+  { name: 'calendar', entries: [{ kps: 'months', eng: 'Months' }, ...CalendarTerms.MonthTerms, { kps: 'days', eng: 'Days' }, ...CalendarTerms.DayTerms] },
 ];
 
 export const getDomain = (name: string): DictionaryDomain | undefined =>
