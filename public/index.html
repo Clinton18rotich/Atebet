@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atebet - Piikab Kutit</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,sans-serif;background:#FFF8F0;color:#3B2314}
+.app{max-width:480px;margin:0 auto;min-height:100vh;display:flex;flex-direction:column}
+.header{background:#3B2314;padding:20px;text-align:center}
+.header h1{color:#E8751A;font-size:26px}
+.header p{color:#D4C4B0;font-size:12px;margin-top:2px;font-style:italic}
+#tabs{display:flex;background:#2A1A0E;overflow-x:auto}
+.tab{flex:1;padding:12px 6px;text-align:center;color:#8B6F5E;cursor:pointer;border:none;background:none;font-size:10px;font-weight:600;min-width:55px}
+.tab.active{color:#E8751A;border-bottom:3px solid #E8751A}
+#content{flex:1;padding:12px;overflow-y:auto}
+.east-bar{background:#E8751A;color:white;text-align:center;padding:8px;font-size:12px;font-weight:600;border-radius:0 0 8px 8px}
+.greeting{text-align:center;padding:16px 0;font-size:28px;font-weight:700}
+.card{background:white;border-radius:12px;padding:14px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+.card-title{font-size:15px;font-weight:700;color:#E8751A;margin-bottom:6px}
+.card-subtitle{font-size:12px;color:#8B6F5E;font-style:italic;margin-bottom:10px}
+.row{display:flex;padding:6px 0;border-bottom:1px solid #F5F0EB}
+.row-left{flex:1;font-weight:600;font-size:15px}
+.row-right{flex:2;font-size:13px;color:#5C4033}
+.footer{background:#3B2314;padding:10px;text-align:center;color:#D4C4B0;font-size:10px;font-style:italic}
+.proverb-kps{font-size:16px;font-weight:600;line-height:1.4;margin-bottom:6px}
+.proverb-eng{font-size:13px;color:#5C4033;font-style:italic}
+.search{width:100%;padding:10px;border:1px solid #E0D0C0;border-radius:8px;font-size:13px;margin-bottom:10px;background:white}
+.domain-scroll{display:flex;overflow-x:auto;gap:6px;margin-bottom:12px;padding-bottom:6px}
+.domain-chip{padding:6px 12px;background:white;border-radius:16px;font-size:11px;cursor:pointer;white-space:nowrap;border:1px solid #E0D0C0}
+.domain-chip.active{background:#E8751A;color:white;border-color:#E8751A}
+.lesson-tab{display:flex;border-bottom:1px solid #E0D0C0;background:white;border-radius:10px 10px 0 0;overflow-x:auto}
+.lesson-btn{flex:1;padding:10px 8px;background:none;border:none;font-size:10px;cursor:pointer;color:#8B6F5E;font-weight:500;white-space:nowrap;min-width:60px}
+.lesson-btn.active{color:#E8751A;border-bottom:2px solid #E8751A;font-weight:600}
+.story-stage{background:#FFF8F0;border-left:3px solid #E8751A;padding:10px 12px;margin-bottom:8px;border-radius:0 8px 8px 0}
+.story-stage-name{font-size:13px;font-weight:700;color:#E8751A}
+.story-stage-kps{font-size:11px;color:#8B6F5E;font-style:italic}
+.story-stage-desc{font-size:12px;color:#5C4033;margin-top:4px;line-height:1.5}
+.story-stage-duration{font-size:10px;color:#B0A090;margin-top:2px}
+.story-subtab{display:flex;gap:6px;margin-bottom:12px;overflow-x:auto}
+.story-subtab-btn{padding:8px 12px;background:white;border:1px solid #E0D0C0;border-radius:16px;font-size:11px;cursor:pointer;white-space:nowrap}
+.story-subtab-btn.active{background:#3B2314;color:#E8751A;border-color:#3B2314}
+.quote-box{background:#F5F0EB;padding:12px;border-radius:8px;margin:8px 0;font-style:italic;font-size:12px;line-height:1.6;color:#5C4033}
+.warning-box{background:#FFF3E0;border:1px solid #FF9800;padding:10px;border-radius:8px;margin:8px 0;font-size:11px}
+</style>
+</head>
+<body>
+<div class="app">
+<div class="header"><h1>Atebet</h1><p>Atebetab Piikab Kutit</p></div>
+<div id="tabs">
+<button class="tab active" data-tab="mabwaita">Altar</button>
+<button class="tab" data-tab="kot">House</button>
+<button class="tab" data-tab="tuga">Cattle</button>
+<button class="tab" data-tab="stories">Stories</button>
+<button class="tab" data-tab="chepalungu">Music</button>
+<button class="tab" data-tab="kokwet">Community</button>
+<button class="tab" data-tab="oret">Lore</button>
+</div>
+<div id="content"></div>
+<div class="footer">Kongoi mising'. 🌍🔥🐄</div>
+</div>
+<script src="data.js"></script>
+<script src="stories.js"></script>
+<script src="culture.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
