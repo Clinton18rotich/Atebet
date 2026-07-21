@@ -4,6 +4,9 @@ import { View, Text, StyleSheet } from 'react-native';
 import MabwaitaScreen from '../screens/MabwaitaScreen';
 import KotScreen from '../screens/KotScreen';
 import TugaScreen from '../screens/TugaScreen';
+import ChepalunguScreen from '../screens/ChepalunguScreen';
+import KokwetScreen from '../screens/KokwetScreen';
+import OretScreen from '../screens/OretScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -63,36 +66,31 @@ const TabNavigator: React.FC = () => {
       />
       <Tab.Screen
         name="Chepalungu"
-        component={View}
+        component={ChepalunguScreen}
         options={{
           tabBarIcon: ({ color }) => (
             <TabIcon label="Music" kipsigis="Chepalungu" color={color} />
           ),
         }}
-      >
-        {() => (
-          <View style={styles.placeholder}>
-            <Text style={styles.placeholderTitle}>Chepalungu — The Music</Text>
-            <Text style={styles.placeholderSub}>Coming soon</Text>
-          </View>
-        )}
-      </Tab.Screen>
+      />
       <Tab.Screen
         name="Kokwet"
-        component={View}
+        component={KokwetScreen}
         options={{
           tabBarIcon: ({ color }) => (
             <TabIcon label="Community" kipsigis="Kokwet" color={color} />
           ),
         }}
-      >
-        {() => (
-          <View style={styles.placeholder}>
-            <Text style={styles.placeholderTitle}>Kokwet — The Community</Text>
-            <Text style={styles.placeholderSub}>Coming soon</Text>
-          </View>
-        )}
-      </Tab.Screen>
+      />
+      <Tab.Screen
+        name="Oret"
+        component={OretScreen}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <TabIcon label="Lore" kipsigis="Oret" color={color} />
+          ),
+        }}
+      />
     </Tab.Navigator>
   );
 };
@@ -109,22 +107,6 @@ const styles = StyleSheet.create({
   iconLabel: {
     fontSize: 9,
     marginTop: 2,
-  },
-  placeholder: {
-    flex: 1,
-    backgroundColor: '#FFF8F0',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  placeholderTitle: {
-    fontSize: 24,
-    fontWeight: '700',
-    color: '#3B2314',
-  },
-  placeholderSub: {
-    fontSize: 14,
-    color: '#8B6F5E',
-    marginTop: 8,
   },
 });
 

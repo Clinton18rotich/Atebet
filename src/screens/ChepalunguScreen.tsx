@@ -7,7 +7,7 @@ import {
   ScrollView,
   TouchableOpacity,
 } from 'react-native';
-import { Colors } from '../theme/colors';
+
 
 type Era = 'pioneers' | 'bands' | 'songs' | 'legacy';
 
