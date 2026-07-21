@@ -1,0 +1,22 @@
+export const FurnitureTerms = [
+  { kps: 'meset', eng: 'table' },
+  { kps: 'kabat', eng: 'cupboard' },
+  { kps: 'sanit', eng: 'plate' },
+  { kps: 'kikombet', eng: 'cup' },
+  { kps: 'kipakuliit', eng: 'calabash (drinking vessel)' },
+  { kps: 'kijikeet', eng: 'spoon' },
+  { kps: 'rotwet', eng: 'knife' },
+  { kps: 'umoit', eng: 'fork' },
+  { kps: 'ng\'echeret', eng: 'chair' },
+  { kps: 'kitanda', eng: 'bed' },
+  { kps: 'saburiet', eng: 'cooking pot (metal)' },
+  { kps: 'chebungut', eng: 'pot (general)' },
+  { kps: 'muganget', eng: 'cooking stick (for kimyeet)' },
+  { kps: 'burwet', eng: 'stirring stick (for milk foods)' },
+  { kps: 'segetiet', eng: 'curved wooden knife (for kimiet)' },
+  { kps: 'purubet', eng: 'whisk stick' },
+  { kps: 'soteet', eng: 'gourd (milk storage)' },
+  { kps: 'kigombeet', eng: 'cup (for drinking)' },
+  { kps: 'rogoret', eng: 'beer tube (creeper)', pl: 'rogorosiek' },
+];
+export default FurnitureTerms;

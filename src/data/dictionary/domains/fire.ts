@@ -1,0 +1,22 @@
+export const FireTerms = [
+  { kps: 'mat', eng: 'fire' },
+  { kps: 'ma', eng: 'fire (short form)' },
+  { kps: 'kwendet', eng: 'firewood', pl: 'kwenik' },
+  { kps: "ng'etetiot", eng: 'red burning firewood (glowing embers)' },
+  { kps: 'iyeet', eng: 'smoke' },
+  { kps: 'muyeiyweek', eng: 'soot (above fireplace)' },
+  { kps: 'nesiot', eng: 'charcoal (general)', pl: 'neseek' },
+  { kps: 'wosek', eng: 'charcoal (ritual, gourd treatment)' },
+  { kps: 'magaa', eng: 'charcoal (cooking)' },
+  { kps: 'oriat', eng: 'ash', pl: 'oreek' },
+  { kps: 'pusarek', eng: 'medicinal ashes' },
+  { kps: 'kegenget', eng: 'splint used to start fire' },
+  { kps: 'kibiritiit', eng: 'matchbox / matchstick' },
+  { kps: 'chepkutet', eng: 'pipe used to blow air into smoky fire' },
+  { kps: 'chemwaga', eng: 'pipe used to ignite fire (alt)' },
+  { kps: 'kilal mat', eng: 'to light a fire' },
+  { kps: 'kiywokyi ma', eng: 'to add firewood' },
+  { kps: 'ka koyoiy', eng: 'it is smoky' },
+  { kps: 'ka ko nesin saburiet', eng: 'sufuria coloured with soot' },
+];
+export default FireTerms;
